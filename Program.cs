@@ -8,7 +8,7 @@ namespace TurtleLab
 
         static void Main()
         {
-            Project.Run();
+            Project.Project.Run();
         }
 
     }

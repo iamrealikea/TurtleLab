@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using static ThanaNita.Turtles.One;
 using static TurtleLab.ConsoleLib;
 
-namespace TurtleLab
+namespace TurtleLab.Lab
 {
     internal class Lab05
     {
@@ -19,7 +19,7 @@ namespace TurtleLab
         {
             for (int i = 0; i < 10; ++i)
             {
-                Console.Write(new string(' ', 19 - (i*2)));
+                Console.Write(new string(' ', 19 - i*2));
                 for (int j = 0; j < i + 1; ++j)
                 {
                     Console.Write("* ");
