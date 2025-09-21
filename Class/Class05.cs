@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using static ThanaNita.Turtles.One;
 using static TurtleLab.ConsoleLib;
 
-namespace TurtleLab;
+namespace TurtleLab.Class;
 
 internal class Class05
 {
